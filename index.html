@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ConnnectSolutions® | Trusted Professionals. Connected.</title>
+<meta name="description" content="ConnnectSolutions® connects consumers and businesses with trusted professionals across the UK.">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#f8fafc;color:#1e293b;line-height:1.6}
+header{background:#0f172a;padding:20px 8%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0}
+.logo{color:#fff;font-size:1.8rem;font-weight:700}
+nav a{color:#fff;text-decoration:none;margin-left:20px}
+.hero{background:linear-gradient(135deg,#0f172a,#2563eb);color:#fff;padding:120px 8%;text-align:center}
+.hero h1{font-size:3rem;margin-bottom:20px}
+.hero p{max-width:800px;margin:0 auto 30px}
+.btn{display:inline-block;background:#fff;color:#2563eb;padding:14px 28px;border-radius:10px;text-decoration:none;font-weight:600;margin:8px}
+section{padding:80px 8%}
+h2{text-align:center;margin-bottom:40px;font-size:2.2rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
+.card{background:#fff;padding:25px;border-radius:15px;box-shadow:0 10px 25px rgba(0,0,0,.08)}
+.dark{background:#0f172a;color:#fff}
+form{max-width:800px;margin:auto}
+input,select,textarea{width:100%;padding:15px;margin-bottom:15px;border:1px solid #ddd;border-radius:10px}
+button{background:#2563eb;color:#fff;border:none;padding:15px 25px;border-radius:10px;cursor:pointer}
+footer{background:#0f172a;color:#fff;text-align:center;padding:40px}
+.testimonial{font-style:italic}
+@media(max-width:768px){.hero h1{font-size:2.1rem} nav{display:none}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">ConnnectSolutions®</div>
+<nav>
+<a href="#services">Services</a>
+<a href="#partners">Partners</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Connecting You With Trusted Professionals</h1>
+<p>Need a builder, accountant, solicitor, marketing agency, tradesperson or specialist? ConnnectSolutions® finds the right professional for the job.</p>
+<a href="#contact" class="btn">Find A Professional</a>
+<a href="#partners" class="btn">Become A Partner</a>
+</section>
+
+<section id="services">
+<h2>How It Works</h2>
+<div class="cards">
+<div class="card"><h3>1. Tell Us What You Need</h3><p>Submit your enquiry and requirements.</p></div>
+<div class="card"><h3>2. We Find Trusted Experts</h3><p>We source reputable professionals from our network.</p></div>
+<div class="card"><h3>3. Get Connected</h3><p>Receive introductions and move forward with confidence.</p></div>
+</div>
+</section>
+
+<section class="dark" id="partners">
+<h2>Why Professionals Join</h2>
+<div class="cards">
+<div class="card" style="color:#1e293b"><h3>Qualified Leads</h3><p>Receive opportunities from customers actively seeking services.</p></div>
+<div class="card" style="color:#1e293b"><h3>Pay Per Lead</h3><p>No expensive retainers. Simple referral-based growth.</p></div>
+<div class="card" style="color:#1e293b"><h3>Grow Faster</h3><p>Focus on your work while we help generate enquiries.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Services We Help Source</h2>
+<div class="cards">
+<div class="card">Builders & Contractors</div>
+<div class="card">Electricians & Plumbers</div>
+<div class="card">Solicitors & Accountants</div>
+<div class="card">Marketing Agencies</div>
+<div class="card">Mortgage Brokers</div>
+<div class="card">Business Consultants</div>
+</div>
+</section>
+
+<section>
+<h2>Client Testimonials</h2>
+<div class="cards">
+<div class="card testimonial">"Quick, professional and saved me hours searching for the right contractor."</div>
+<div class="card testimonial">"Great service. Connected us with exactly the expert we needed."</div>
+<div class="card testimonial">"Simple process and quality professionals."</div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Request A Professional</h2>
+
+<form id="contactForm">
+<input type="text" name="name" placeholder="Full Name" required>
+<input type="email" name="email" placeholder="Email Address" required>
+<input type="tel" name="phone" placeholder="Phone Number">
+<select name="service">
+<option>Service Required</option>
+<option>Builder</option>
+<option>Electrician</option>
+<option>Plumber</option>
+<option>Accountant</option>
+<option>Solicitor</option>
+<option>Marketing Agency</option>
+<option>Mortgage Broker</option>
+<option>Other</option>
+</select>
+<textarea name="details" rows="6" placeholder="Tell us about your project"></textarea>
+<button type="submit">Get Matched</button>
+</form>
+
+<div id="thankYouMessage" style="display:none;max-width:800px;margin:auto;text-align:center;background:#fff;padding:40px;border-radius:15px;box-shadow:0 10px 25px rgba(0,0,0,.08)">
+<h2 style="color:#2563eb;">✅ Thank You!</h2>
+<p>Your enquiry has been received successfully.</p>
+<p>A member of the ConnnectSolutions® team will contact you shortly.</p>
+</div>
+
+</section>
+
+<section>
+<h2>Frequently Asked Questions</h2>
+<div class="cards">
+<div class="card"><h3>How much does it cost?</h3><p>The matching service is free for customers.</p></div>
+<div class="card"><h3>How are professionals selected?</h3><p>We aim to connect customers with reputable and suitable providers.</p></div>
+<div class="card"><h3>Are you nationwide?</h3><p>We are building a network across the UK.</p></div>
+</div>
+</section>
+
+<footer>
+<h3>ConnnectSolutions®</h3>
+<p>Connecting Consumers & Businesses With Trusted Professionals</p>
+<p>ConnectSolutions.co@gmail.com</p>
+</footer>
+
+<script>
+document.getElementById('contactForm').addEventListener('submit', async function(e){
+e.preventDefault();
+const data = new FormData(this);
+try{
+const response = await fetch('https://formsubmit.co/ajax/ConnectSolutions.co@gmail.com',{
+method:'POST',
+body:data
+});
+if(response.ok){
+this.style.display='none';
+document.getElementById('thankYouMessage').style.display='block';
+}else{
+alert('There was a problem sending your enquiry.');
+}
+}catch(err){
+alert('There was a problem sending your enquiry.');
+}
+});
+</script>
+
+</body>
+</html>
